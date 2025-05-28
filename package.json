@@ -24,5 +24,10 @@
   "main": "query.js",
   "scripts": {
     "start": "node query.js"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^6.0.1",
+    "dotenv": "^16.5.0",
+    "openai": "^4.103.0"
   }
 }
