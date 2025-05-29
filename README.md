@@ -1,3 +1,7 @@
+## video
+
+[![rag watch demo](/images/rag.png)](https://www.youtube.com/watch?v=oy88eYIqVHc)
+
 # retrieval-augmented generation (rag)
 
 this simple demo project shows how rag workflows work in a nutshell.

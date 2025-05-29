@@ -23,7 +23,8 @@
   "type": "module",
   "main": "query.js",
   "scripts": {
-    "start": "node query.js"
+    "start": "node query.js",
+    "dev": "node populate-db.js"
   },
   "dependencies": {
     "@pinecone-database/pinecone": "^6.0.1",
