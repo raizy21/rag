@@ -47,7 +47,7 @@ const db = index.namespace("rag");
 const queryEmbedding = await openai.embeddings.create({
   model: "text-embedding-3-small",
   input: query,
-  dimensions: 1024,
+  dimensions: 512,
 });
 
 // assign the embedding to a variable
