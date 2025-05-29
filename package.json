@@ -1,0 +1,33 @@
+{
+  "name": "rag",
+  "version": "1.0.0",
+  "description": "a simple rag workflow for a github project",
+  "keywords": [
+    "rag",
+    "ai",
+    "learn",
+    "github",
+    "openai",
+    "pinecone"
+  ],
+  "homepage": "https://github.com/raizy21/rag#readme",
+  "bugs": {
+    "url": "https://github.com/raizy21/rag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raizy21/rag.git"
+  },
+  "license": "ISC",
+  "author": "andrei",
+  "type": "module",
+  "main": "query.js",
+  "scripts": {
+    "start": "node query.js"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^6.0.1",
+    "dotenv": "^16.5.0",
+    "openai": "^4.103.0"
+  }
+}
